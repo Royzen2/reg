@@ -1,0 +1,15 @@
+<html>
+<body>
+
+    <input type="email" id="email">
+    <input type="pass" id="pass">
+</body>
+ 
+  <script>
+    let pass = document.getElementId('pass').value;
+    let email = document.getElementId('email').value;
+    
+    cef.emit('data:reg', pass, email);
+
+  </script>
+</html>
